@@ -1,6 +1,6 @@
 %define _disable_ld_no_undefined 1
 Name:       znc
-Version:    0.092
+Version:    0.094
 Release:    %mkrel 1
 License:    GPLv2+
 Summary:    An IRC bounce with many advanced features
