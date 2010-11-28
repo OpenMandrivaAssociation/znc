@@ -1,6 +1,6 @@
 %define _disable_ld_no_undefined 1
 Name:       znc
-Version:    0.094
+Version:    0.096
 Release:    %mkrel 1
 License:    GPLv2+
 Summary:    An IRC bounce with many advanced features
@@ -60,3 +60,4 @@ rm -rf %buildroot
 %_datadir/%{name}/webadmin/*/*
 %_datadir/%{name}/webskins/*/*/*
 %_mandir/man1/%{name}.1.*
+%_datadir/%{name}/blockuser/tmpl/blockuser_WebadminUser.tmpl
