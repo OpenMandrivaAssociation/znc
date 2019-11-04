@@ -1,7 +1,7 @@
 %define _disable_ld_no_undefined 1
 
 Name:		znc
-Version:	1.7.4
+Version:	1.7.5
 Release:	1
 Summary:	An IRC bouncer with many advanced features
 Group:		Networking/IRC
@@ -47,10 +47,10 @@ to name a few.
 %setup -q
 
 %build
-%configure2_5x --disable-perl
-%make
+%configure --disable-perl
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 
