@@ -1,13 +1,13 @@
 %define _disable_ld_no_undefined 1
 
 Name:		znc
-Version:	1.8.2
+Version:	1.9.0
 Release:	1
 Summary:	An IRC bouncer with many advanced features
 Group:		Networking/IRC
 License:	GPLv2+
-URL:		http://en.znc.in/wiki/ZNC
-Source0:	http://znc.in/releases/%{name}-%{version}.tar.gz
+URL:		https://en.znc.in/wiki/ZNC
+Source0:	https://znc.in/releases/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(openssl)
 
 %files
