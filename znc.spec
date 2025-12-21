@@ -8,6 +8,11 @@ Group:		Networking/IRC
 License:	GPLv2+
 URL:		https://en.znc.in/wiki/ZNC
 Source0:	https://znc.in/releases/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(openssl)
 
 %files
