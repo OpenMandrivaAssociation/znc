@@ -1,8 +1,8 @@
 %define _disable_ld_no_undefined 1
 
 Name:		znc
-Version:	1.9.0
-Release:	2
+Version:	1.10.2
+Release:	1
 Summary:	An IRC bouncer with many advanced features
 Group:		Networking/IRC
 License:	GPLv2+
